@@ -54,6 +54,11 @@ const Swr = ({ classicHeader, darkTheme }) => {
         href: "https://www.facebook.com/LamaOfDallas",
       },
       {
+        name: "LAMA San Antonio",
+        icon: "/images/sanant.jpeg",
+        href: "https://www.facebook.com/LAMASAOrganizingChapter",
+      },
+      {
         name: "LAMA LAWTON FT. SILL",
         icon: "/images/lawton.jpeg ",
         href: "https://www.facebook.com/lama.lawton.ft.sill",

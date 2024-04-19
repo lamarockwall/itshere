@@ -202,10 +202,7 @@ const Portfolio = ({ classicHeader, darkTheme }) => {
       </section>
       <div className="project-details-modal">
         {/* Modal */}
-        <ProjectDetailsModal
-          projectDetails={selectedProjectDetails}
-          darkTheme={darkTheme}
-        ></ProjectDetailsModal>
+       
       </div>
     </>
   );
