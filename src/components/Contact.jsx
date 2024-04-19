@@ -1,20 +1,9 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import { Tooltip } from "./Tooltip";
-
+import downloadPDF from "../documents/LAMAMembershipApplication_RW.pdf"
 
 const Contact = ({ classicHeader, darkTheme }) => {
-  const downloadPDF = () => {
-    // Generate your PDF content or fetch it from a server
-    const pdfContent = "/images/LAMAMembershipApplication_RW.pdf";
-    const blob = new Blob([pdfContent], { type: "application/pdf" });
-    const url = URL.createObjectURL(blob);
-    const link = document.createElement("a");
-    link.href = url;
-    link.download = "LAMAMembershipApplication_RW.pdf";
-    document.body.appendChild(link);
-    link.click();
   
-  };
 
   return (
     <section
@@ -59,7 +48,16 @@ Join us for an adventure-packed ride or immerse yourself in the warmth of our me
 
 Ready to take the plunge and become a part of our vibrant community? It's as easy as filling out a membership application. Once you've taken that exciting step and submitted your application, get set to embark on your journey with us by paying an initial membership fee. This fee not only covers your yearly international membership dues but also gets you started with our special international member patch and the exciting prospect patch. Get ready to dive in – we can't wait to welcome you aboard!
             </h3>
-            <button className="btn btn-outline-primary rounded-pill shadow-none smooth-scroll mt-2" onClick={downloadPDF}>Membership Application</button>
+            <a
+            className="btn btn-outline-secondary rounded-pill shadow-none"
+            href={downloadPDF}
+            download
+          >
+            Membership Application
+            <span className="ms-1">
+              <i className="fas fa-download" />
+            </span>
+          </a>
           </div>
           <div className="col-md-4 col-xl-12 order-1 order-md-0 text-center text-md-middle">
             
