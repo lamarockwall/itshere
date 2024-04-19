@@ -33,7 +33,7 @@ const Testimonials = ({ classicHeader, darkTheme }) => {
       Answer: "L.A.M.A.'s uniform consists of a black shirt, blue jeans, all black boots and all black leather vest",
     },
     {
-      Question: "an my spouse join even if they don't ride on the back of my bike",
+      Question: "Can my spouse join even if they don't ride on the back of my bike",
       Answer: "Yes!  We have a variety of memberships.  The more the merrier!",
     },
   ];
