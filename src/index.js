@@ -7,10 +7,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import "./sass/stylesheet.scss";
 import "./index.scss";
-import { inject } from '@vercel/analytics';
-import { dev } from '$app/environment';
 
-inject({ mode: dev ? 'development' : 'production' });
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

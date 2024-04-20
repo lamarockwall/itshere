@@ -15,7 +15,9 @@ import Footer from "./components/Footer";
 import Founders from "./components/Founders";
 import Swr from "./components/Swr";
 import ClassicHeader from "./components/ClassicHeader";
+import { inject } from '@vercel/analytics';
 
+inject({ mode: 'production' });
 
 function App() {
 
