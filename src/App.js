@@ -15,9 +15,11 @@ import Footer from "./components/Footer";
 import Founders from "./components/Founders";
 import Swr from "./components/Swr";
 import ClassicHeader from "./components/ClassicHeader";
-
+import { inject } from '@vercel/analytics';
+ 
 
 function App() {
+inject({ mode: dev ? 'development' : 'production' });
   const classicHeader = commonConfig.classicHeader;
   const darkTheme = commonConfig.darkTheme;
 
@@ -72,45 +74,45 @@ function App() {
 
 <div id="content" role="main">
             <Home
-              classicHeader={classicHeader}
+              classicHeader={ClassicHeader}
               darkTheme={darkTheme}
               handleNavClick={handleNavClick}
             ></Home>
             <AboutUs
-              classicHeader={classicHeader}
+              classicHeader={ClassicHeader}
               darkTheme={darkTheme}
             ></AboutUs>
             <Services
-              classicHeader={classicHeader}
+              classicHeader={ClassicHeader}
               darkTheme={darkTheme}
             ></Services>
             <Resume
-              classicHeader={classicHeader}
+              classicHeader={ClassicHeader}
               darkTheme={darkTheme}
             ></Resume>
             <Founders
-              classicHeader={classicHeader}
+              classicHeader={ClassicHeader}
               darkTheme={darkTheme}
             ></Founders>
             <Portfolio
-              classicHeader={classicHeader}
+              classicHeader={ClassicHeader}
               darkTheme={darkTheme}
             ></Portfolio>
             <Testimonials
-              classicHeader={classicHeader}
+              classicHeader={ClassicHeader}
               darkTheme={darkTheme}
             ></Testimonials>
             <Contact
-              classicHeader={classicHeader}
+              classicHeader={ClassicHeader}
               darkTheme={darkTheme}
             ></Contact>
             <Swr
-              classicHeader={classicHeader}
+              classicHeader={ClassicHeader}
               darkTheme={darkTheme}
             ></Swr>
           </div>
           <Footer
-            classicHeader={classicHeader}
+            classicHeader={ClassicHeader}
             darkTheme={darkTheme}
             handleNavClick={handleNavClick}
           ></Footer>

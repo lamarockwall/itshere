@@ -20,14 +20,14 @@ const Header = ({ classicHeader, darkTheme, homeRef, handleNavClick }) => {
               setIsNavModalClose(true);
             }}
           >
-            <span className="bg-dark-2 rounded-pill p-2 mb-lg-1 d-none d-lg-inline-block">
+            {/* <span className="bg-dark-2 rounded-pill p-2 mb-lg-1 d-none d-lg-inline-block">
               <img
                 className="img-fluid rounded-pill d-block"
                 src="images/lamarw.jpeg"
                 title="I'm Simone"
                 alt="profile"
               />
-            </span>
+            </span> */}
             <h1 className="text-5 text-white text-center mb-0 d-lg-block">
              L.A.M.A. Rockwall
             </h1>

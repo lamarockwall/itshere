@@ -50,8 +50,14 @@ const ClassicHeader = ({ handleNavClick }) => {
                 setIsNavModalClose(true);
               }}
             >
-              {" "}
-              <img src="images/LAMA_LOGO.jpg"  />{" "}
+             <span className="bg-dark-2 rounded-pill p-2 mb-lg-1 d-none d-lg-inline-block">
+              <img
+                className="img-fluid rounded-pill d-block"
+                src="images/lamarw.jpeg"
+                title="I'm Simone"
+                alt="profile"
+              />
+            </span>
             </Link>
             {/* Logo End */}
           </div>

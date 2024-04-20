@@ -46,6 +46,15 @@ const Home = ({ classicHeader, darkTheme, handleNavClick }) => {
                 >
                   Join Now
                 </a>
+                
+              <img
+                className="img-thumbnail rounded-pill d-block"
+                src="images/lamarw.jpeg"
+                title="I'm Simone"
+                alt="profile"
+                
+              />
+            
               </div>
             </div>
           </div>
