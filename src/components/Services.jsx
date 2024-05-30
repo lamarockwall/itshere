@@ -25,7 +25,7 @@ const Services = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "BUSINESS MANAGER",
-      desc: "I'm Daniel Molina aka Sucio! Outside of motorcycle riding, I have an amzing wife  and 4 kids! And I love watching Football Go Dolphins!",
+      desc: "I'm Daniel Molina aka Sucio! Outside of motorcycle riding, I have an amazing wife  and 4 kids! And I love watching Football Go Dolphins!",
       icon: "/images/danny.jpeg",
     },
     {
