@@ -10,8 +10,8 @@ const Services = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "VICE PRESIDENT",
-      desc: "From the vibrant island of Puerto Rico, I am a proud mother of two wonderful children. From my early years, I cultivated a passion for motorcycles, a love that has remained throughout my life's journey. During my time in Puerto Rico, I was involved in various motorcycle clubs, immersing myself in the camaraderie and thrill of the riding community.However, life's twists led me to relocate to Texas, where fate brought me to LAMA Rockwall. Embracing the opportunity to create new connections and create memories, I took a leap of faith and became a part of this community. Today, the friends I've made at LAMA Rockwall have become my second family, providing support and companionship, making Texas feel like home away from home..",
-      icon: "/images/maria.jpeg",
+      desc: "Currently open",
+      icon: " ",
     },
     {
       name: "SECRETARY",
