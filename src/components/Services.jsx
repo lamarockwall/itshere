@@ -9,14 +9,14 @@ const Services = ({ classicHeader, darkTheme }) => {
       icon: "/images/jose.jpeg",
     },
     {
-      name: "VICE PRESIDENT",
-      desc: "Currently open",
-      icon: " ",
+      name: "VICE-PRESIDENT",
+      desc: "Hello everyone! I'm Daniel Molina, aka Sucio. Family man who enjoys spending time with his wife and kids. Passionate about JDM cars, football, hockey, and riding motorcycles.",
+      icon: "/images/danny.jpeg",
     },
     {
       name: "SECRETARY",
-      desc: "I am Pancho LAMA Rockwall secretary. Love to do outdoor activities and ride my motorcycle Love doing charity work and volunteering. Have a lovely wife and four  amazing children.",
-      icon: "/images/pancho.jpeg",
+      desc: " Currently Vacant",
+      icon: " ",
     },
     {
       name: "TREASURER",
@@ -25,8 +25,8 @@ const Services = ({ classicHeader, darkTheme }) => {
     },
     {
       name: "BUSINESS MANAGER",
-      desc: "I'm Daniel Molina aka Sucio! Outside of motorcycle riding, I have an amazing wife  and 4 kids! And I love watching Football Go Dolphins!",
-      icon: "/images/danny.jpeg",
+      desc: "I am Pancho LAMA Rockwall Business Manager. Love to do outdoor activities and ride my motorcycle Love doing charity work and volunteering. Have a lovely wife and four  amazing children.",
+      icon: "/images/pancho.jpeg",
     },
     {
       name: "MOTO-TOURING OFFICER",
@@ -34,7 +34,7 @@ const Services = ({ classicHeader, darkTheme }) => {
       icon: "/images/cano2.jpeg",
     },
     {
-      name: "SEARGENT AT ARMS",
+      name: "HEAD SEARGENT AT ARMS",
       desc: "I’m Thomas Kent, aka Big T. I love spending time with the wife and kids and bodybuilding!",
       icon: "/images/thomas.jpeg",
     },

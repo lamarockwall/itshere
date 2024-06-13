@@ -70,14 +70,14 @@ Ready to take the plunge and become a part of our vibrant community? It's as eas
             </h2>
             <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
             <span className="text-primary text-4 me-2">
-                 Business Manager Daniel Molina
+                 VICE-PRESIDENT Daniel Molina
               </span>
             </p>
             <p className={"text-3 mb-1 " + (darkTheme ? "text-light" : "")}>
               <span className="text-primary text-4 me-2">
                 <i className="fas fa-phone" />
               </span>
-              lamarockwallbm@gmail.com
+              lamarockwallvp@gmail.com
               <br></br>
               480-800-7959
             </p>
