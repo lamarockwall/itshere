@@ -74,49 +74,14 @@ function App() {
           )}
 
 <div id="content" role="main">
-            <Home
+            <Down
               classicHeader={ClassicHeader}
               darkTheme={darkTheme}
               handleNavClick={handleNavClick}
-            ></Home>
-            <AboutUs
-              classicHeader={ClassicHeader}
-              darkTheme={darkTheme}
-            ></AboutUs>
-            <Services
-              classicHeader={ClassicHeader}
-              darkTheme={darkTheme}
-            ></Services>
-            <Resume
-              classicHeader={ClassicHeader}
-              darkTheme={darkTheme}
-            ></Resume>
-            <Founders
-              classicHeader={ClassicHeader}
-              darkTheme={darkTheme}
-            ></Founders>
-            <Portfolio
-              classicHeader={ClassicHeader}
-              darkTheme={darkTheme}
-            ></Portfolio>
-            <Testimonials
-              classicHeader={ClassicHeader}
-              darkTheme={darkTheme}
-            ></Testimonials>
-            <Contact
-              classicHeader={ClassicHeader}
-              darkTheme={darkTheme}
-            ></Contact>
-            <Swr
-              classicHeader={ClassicHeader}
-              darkTheme={darkTheme}
-            ></Swr>
+            ></Down>
+            
           </div>
-          <Footer
-            classicHeader={ClassicHeader}
-            darkTheme={darkTheme}
-            handleNavClick={handleNavClick}
-          ></Footer>
+         
         </div>
         {/* back to top */}
         <Tooltip text="Back to Top" placement="left">
